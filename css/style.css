@@ -56,3 +56,25 @@ ul{
     justify-content: space-around;
 
 }
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/meta_mundo.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.btm{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.banner .btm{
+    margin-top: 230px;
+}
