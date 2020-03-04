@@ -209,3 +209,57 @@ ul{
       font-size: 1.5em;
       text-shadow: 3px 3px 6px #000000;
   }
+
+  footer{
+      box-shadow: 0 0 10px #000000;
+      color: white;
+      margin-top: 30px;
+      background: rgba(0 ,0, 0, 0);
+      
+  }
+
+  footer a{
+      color: white;
+      text-decoration: none;
+  }
+
+  footer ul{
+      list-style-type: none;
+  }
+
+  footer .sociais{
+      display: flex;
+      padding: 1.2em 0px;
+      justify-content: space-evenly;
+      color: var(--purple);
+      font-size: 2em;
+  }
+
+  footer .container{
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+  }
+
+  footer h5{
+      padding-bottom: 1.2em;
+      color: #474747;
+      font-size: 1,7em;
+  }
+
+  footer h6{
+      text-align: end;
+      padding: 0.7em;
+      font-size: 0.8em;
+  }
+
+  footer p{
+      text-align: center;
+      color: #474747;
+  }
+
+  .desgraca{
+      text-align: center;
+      color: #474747;
+      font-size: 1.2gem;
+  }
