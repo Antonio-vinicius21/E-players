@@ -13,6 +13,9 @@
 body{
     background-color: var(--background);
     font-family: 'Titillium Web',  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .gradient{
     background: rgba(213,55,155,1);
@@ -108,6 +111,7 @@ ul{
     width: 100%;
     min-height: 120px;
     margin: 30px 0;
+    box-shadow: 0, 0, 22px #000000;
     background: rgba(67,43,95,1);
     background: -moz-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(67,43,95,1)), color-stop(100%, rgba(30,28,33,1)));
@@ -152,3 +156,130 @@ ul{
 .embreve{
     width: 65%;
 }
+
+.content{
+    display: flex;
+    color: white;
+}
+
+.noticias{
+    width: 70%;
+    padding-right: 40px;
+    flex-flow: wrap;
+    display: flex;
+}
+
+.card{
+    width: 28%;
+    padding: 5px;
+    margin: 2%;
+    box-shadow: 0 2px 6px #000000;
+    background:rgba(0 ,0, 0, 0);
+    background: linear-gradient(#8e53a7 #100c12 #631fc9)
+}
+
+.card img{
+    width: 100%;
+    height: 140px;
+}
+
+.card h4{
+    padding: 1em 0 0 1em;
+}
+
+
+.card p{
+    font-size: 0.8em;
+  padding: 1em;
+  } 
+  .recentes{
+      padding: 1.5em;
+      box-shadow: 0 2px 6px #000000;
+      background: rgba(0 ,0, 0, 0);
+      background: linear-gradient();
+  }
+
+  .resultado{
+      text-align: center;
+      margin: 1.2em 0;
+  }
+  .resultado img{
+    width: 35px;
+
+  }
+
+  .placar{
+      font-size: 1.5em;
+      text-shadow: 3px 3px 6px #000000;
+  }
+
+  footer{
+      box-shadow: 0 0 10px #000000;
+      color: white;
+      margin-top: 30px;
+      background: rgba(0 ,0, 0, 0);
+      
+  }
+
+  footer a{
+      color: white;
+      text-decoration: none;
+  }
+
+  footer ul{
+      list-style-type: none;
+  }
+
+  footer .sociais{
+      display: flex;
+      padding: 1.2em 0px;
+      justify-content: space-evenly;
+      color: var(--purple);
+      font-size: 2em;
+  }
+
+  footer .container{
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+  }
+
+  footer h5{
+      padding-bottom: 1.2em;
+      color: #474747;
+      font-size: 1,7em;
+  }
+
+  footer h6{
+      text-align: end;
+      padding: 0.7em;
+      font-size: 0.8em;
+  }
+
+  footer p{
+      text-align: center;
+      color: #474747;
+  }
+
+  .desgraca{
+      text-align: center;
+      color: #474747;
+      font-size: 1.2em;
+  }
+
+  /* Pagina de cadastro */
+
+  .titulo_pagina{
+      width: 100%;
+      height: 320px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: contain;
+      color: white;
+      background-image: url(../images/cadastro.png);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    padding-top: 1em;
+  }
